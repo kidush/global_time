@@ -1,6 +1,10 @@
 # TODO: Write documentation for `GlobalTime`
-module GlobalTime
-  VERSION = "0.1.0"
+require "./global_time/version"
+require "./global_time/commands/base"
 
-  # TODO: Put your code here
+module GlobalTime
+  include Version
+
+  Commands::Base.run
 end
+

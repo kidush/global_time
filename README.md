@@ -1,14 +1,29 @@
 # global_time
 
-TODO: Write a description here
+A simple cli application built in crystal just for the sake of learning how it works. Basically the cli show to you
+the curent time from the timezone passed as an argument.
 
 ## Installation
 
-TODO: Write installation instructions here
+Build the application
+
+```bash
+$ crystal build src/global_time
+```
+
+Give it permission to run
+
+```bash
+$ chmod u+x global_time
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Just pass the timezone you want to check, and it will show up the time to you. 
+
+```bash
+$ global_time America/Chicago
+```
 
 ## Development
 

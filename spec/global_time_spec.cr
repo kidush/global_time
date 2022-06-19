@@ -1,9 +1,7 @@
 require "./spec_helper"
 
 describe GlobalTime do
-  # TODO: Write tests
-
-  it "works" do
-    false.should eq(true)
+  it "returns the current version of the app" do
+    expect(GlobalTime::VERSION).to eq("0.1.0")
   end
 end
