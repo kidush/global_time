@@ -1,0 +1,13 @@
+name: global_time
+version: 0.1.0
+
+authors:
+  - Thiago F. Lins <thiago.evandson@gmail.com>
+
+targets:
+  global_time:
+    main: src/global_time.cr
+
+crystal: 1.4.1
+
+license: MIT
